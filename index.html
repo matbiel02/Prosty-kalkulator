@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosty Kalkulator</title>
+    <script>
+        function suma() {
+            var a = parseFloat(document.getElementById("a").valute);
+            var b = parseFloat(document.getElementById("b").valute);
+            document.getElementById("wynik").innerHTML = a + b;
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+    <h1>Prosty kalkulator</h1>
+    <h2></h2>
+    <input type="text" id="a" valute="0" dir="rtl">
+    <input type="text" id="b" valute="0" dir="rtl">
+    <div id="wynik"> Tu Bedzie Wynik</div>
+    <button onclick="suma()">+</button>
+
+</body>
+
+</html>
